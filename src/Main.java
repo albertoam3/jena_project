@@ -7,6 +7,8 @@ import org.apache.jena.sparql.exec.http.QueryExecutionHTTP;
 
 public class Main {
     public static void main(String[] args) {
+
+
         // 1. Definir la consulta SPARQL
         String queryString = "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n" +
                 "PREFIX dbo: <http://dbpedia.org/ontology/>\n" +
